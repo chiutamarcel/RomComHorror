@@ -7,7 +7,7 @@ public class Player : MonoBehaviour
     const float GRAV_ACCEL = 9.8f;
     const float MAX_VELOCITY = 500.0f;
     float fall_speed = 0.0f;
-    float speed = 10.0f;
+    float speed = 5.0f;
     float hor = 0.0f, vert = 0.0f;
     Vector3 movDir;
     CharacterController charCtrl;
